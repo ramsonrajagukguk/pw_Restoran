@@ -1,0 +1,182 @@
+body 
+{
+	margin: 0px;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);	
+  background-attachment: fixed;
+  
+}
+
+h3{
+    color: rgb(255, 255, 255);
+}
+a{
+  text-decoration: none;
+}
+
+
+td img{
+  width: 50px;
+  height: 50px;
+}
+    
+.btn4 {
+    background-color: #6699ff;
+    border: none;
+    border-radius: 5px;
+    width: 112px;
+    height: 33px;
+    text-align: center;
+    font-weight: 100;
+    color: #fff;
+    margin: 2px 2px;
+    transition: 0.3s;
+    margin-top: -0px;
+    float: right;
+    margin-right: 2.9cm;
+  }
+
+  .btn4:hover {
+    background-color: #7a19b3;
+    color: white;
+  }
+
+
+  
+
+  .tambah{
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .tambah:hover{
+    background-color:#7a19b3;
+    color: white;
+  }
+
+  .batal{
+    border: 1px solid #000;
+    background: transparent;
+    padding: 6px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .btn-hapus{
+    border: 1px solid rgb(255, 0, 0);
+    background: transparent;
+    padding: 6px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .btn-hapus:hover{
+    background: red;
+    color: #fff;
+  }
+
+  .table a{
+    text-decoration: none;
+  }
+
+  
+
+  .btn-ubah{
+    background: rgb(2, 117, 63);
+    padding: 6px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .btn-ubah:hover{
+    color: #fff;
+    background: rgb(8, 37, 24);
+  }
+  
+form > .textbox {
+    outline: 0;
+    height: 32px;
+    width: 295px;
+    line-height: 42px;
+    padding: 0 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #212121;
+    border: 0;
+    float: left;
+    -webkit-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .table{
+    background: white;
+
+  }
+
+  .table tr td{
+    vertical-align: middle;
+  }
+
+  .wrap{
+    width: 70%; /* Full width */
+    height: 100%; /* Full height */
+    padding-top: 20px;
+    margin: auto;
+  }
+
+  .form-menu{
+  background-color: #fefefe;
+  margin: auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  padding: 10px;
+  width: 60%; 
+  display: block;
+  }
+
+  .form-group{
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  }
+
+  .form-group label{
+
+  }
+
+  label{
+    font-size: 14px;
+  }
+  select:focus,
+  input:focus{
+    outline: 0;
+    border: 1px solid green;
+  }
+  .form-input{
+    margin-left: 20px;
+  padding: 5px 5px;
+  margin: 0;
+  /* display: inline-block; */
+  border: 1px solid #888;
+  border-radius: 5px;
+  }
+
+  .form-input :focus{
+    border: none;
+   outline: 0;
+  }
+  
+
+  .gambar{
+    width: 120px;
+    height:120px;
+  }

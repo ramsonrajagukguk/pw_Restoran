@@ -1,0 +1,111 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+  opacity: .85;
+}
+
+label {
+  font-size: 12.5px;
+  color: rgb(0, 0, 0);
+  opacity: .8;
+  font-weight: 400;
+}
+
+form {
+  padding: 40px 30px;
+  background: #ffffff;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+  padding-bottom: 10px;
+  width: 300px;
+}
+form h4 {
+  margin-bottom: 70px;
+  color: black;
+}
+form h4 span {
+  color: black;
+  font-weight: 700;
+}
+button {
+  width: auto;
+  min-width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px 40px;
+  margin-top: 2px;
+  background-color: #b08bf8;
+  color: #fff;
+  font-size: 14px;
+  margin-left: auto;
+  font-weight: 500;
+  box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.13);
+  border: none;
+  transition: all .3s ease;
+  outline: 0;
+  cursor: pointer;
+}
+button:hover {
+  background: #463284;
+  box-shadow: 0 2px 6px -1px rgba(182, 157, 230, 0.65);
+}
+
+
+input {
+  box-sizing : border-box;
+	width: 100%;
+	padding: 8px;
+	font-size: 11pt;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 5px;
+  transition: .2s;
+}
+input:focus {
+  outline: 0;
+  box-shadow: 0px 0px 5px 1px #02cf5e;
+  transition: .2s;
+}
+
+input:active {
+  outline: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.floating-label {
+  margin-bottom: 20px;
+}
+.floating-label label {
+  position: relative;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.kembali{
+  padding: 5px;
+  text-align: center;
+  
+}
+
+
